@@ -1,0 +1,20 @@
+.searchpanel {
+  padding-top: 10px;
+  width: 280px;
+  height: 320px;
+  border-radius: 40px;
+  border: white 3px solid;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.searchpanel:hover {
+  padding-top: 10px;
+  background-color: white;
+  height: 320px;
+  border-radius: 40px;
+  transition: ease 0.2s;
+  color: teal;
+  box-shadow: black;
+}

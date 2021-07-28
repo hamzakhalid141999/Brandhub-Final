@@ -1,0 +1,100 @@
+.container-breadcrumbs {
+  margin-top: 100px;
+}
+.matchitem__container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to right, #82c4ce73, #6c6fcf60, #d373dc65);
+}
+
+.matchpic_container {
+  width: 100%;
+  padding: 20px;
+  margin-left: 80px;
+}
+
+.image {
+  max-height: 257.297px;
+}
+.image:hover {
+  transition: transform 200ms;
+  transform: scale(1.06);
+}
+
+.result__div {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to right, #82c4ce73, #6c6fcf60, #d373dc65);
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 20px;
+  overflow-x: scroll;
+}
+
+.image__holder {
+  margin: 10px;
+}
+
+.prod__name {
+  color: rgb(58, 58, 58);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.prod__price {
+  color: rgb(58, 58, 58);
+}
+.prod__fabric {
+  color: rgb(58, 58, 58);
+}
+.prod__color {
+  color: rgb(58, 58, 58);
+}
+.card {
+  height: 310px;
+  width: 430px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.card:hover {
+  border: none;
+  background-color: white;
+  transition: transform 200ms;
+  transform: scale(1.03);
+  box-shadow: 20px 20px 39px #bebebe38, -20px -20px 39px #ffffff3d;
+}
+.image__match {
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.details__div {
+  height: 290px;
+  width: 200px;
+  margin-left: 10px;
+  padding-top: 40px;
+}
+.openMatch .ant-btn {
+  background-color: transparent;
+  border: rgb(151, 151, 151) 2px solid;
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+  margin-top: 10px;
+}
+.openMatch .ant-btn:hover {
+  border-radius: 12px;
+  border: rgb(65, 65, 65) 2px solid;
+  color: rgb(65, 65, 65) 2px solid;
+}
+.loading {
+  margin-left: 600px;
+  margin-top: 100px;
+}

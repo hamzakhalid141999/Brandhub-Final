@@ -1,0 +1,218 @@
+.App {
+  scroll-behavior: smooth;
+}
+.app__titleCont {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.app__topbar {
+  width: 100%;
+  height: 550px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-image: linear-gradient(rgb(17, 136, 136), rgb(0, 88, 88));
+  border: none;
+  box-shadow: 5px 10px 15px #888888;
+  text-align: center;
+}
+.app__title {
+  padding-top: 50px;
+  color: rgb(82, 82, 82);
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.app__desc {
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+}
+.desc__container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app__featureCont {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.app__featureCard {
+  margin: 10px;
+  width: 200px;
+  height: 220px;
+  border: 3px solid rgb(62, 143, 129);
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.app__featureCard:hover {
+  background-color: rgb(9, 136, 136);
+  transform: scale(1.03);
+  transition: ease 100ms;
+  border: 3px solid rgb(195, 252, 242);
+  box-shadow: 0px 0px 15px #222222;
+}
+.feature__name {
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.line {
+  margin-top: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.253);
+}
+.search__cont {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  height: 400px;
+  padding: 0px;
+}
+.search__left {
+  margin-top: 80px;
+  width: 30%;
+  padding-left: 30px;
+}
+.makeamatch__right {
+  margin-top: 40px;
+  width: 30%;
+  padding-left: 30px;
+  height: 300px;
+  text-align: right;
+  position: absolute;
+  right: 80px;
+}
+.makeamatch__left {
+  width: 50%;
+}
+.title-feature {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(102, 102, 102);
+}
+.para-feature-left {
+  font-size: 14px;
+  color: rgb(78, 78, 78);
+}
+.para-feature-right {
+  font-size: 14px;
+  color: rgb(78, 78, 78);
+}
+.feature__titleCont {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.feature__title {
+  padding-top: 50px;
+  color: rgb(77, 77, 77);
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.img__right {
+  position: absolute;
+  right: 0px;
+  max-width: 100%;
+}
+.img__left {
+  position: absolute;
+  left: 0px;
+  max-width: 100%;
+}
+.img__right:hover {
+  transform: scale(1.06);
+  transition: ease 400ms;
+}
+.search__btn {
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  position: absolute;
+  margin-top: 40px;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.wishlist__btn {
+  padding: 10px 20px;
+  background-color: rgb(113, 0, 128);
+  color: white;
+  border: none;
+  position: absolute;
+  margin-top: 40px;
+  border: 1px solid rgb(113, 0, 128);
+  cursor: pointer;
+}
+.wishlist__btn:hover {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(81, 0, 128);
+  transition: ease 300ms;
+  color: rgb(87, 0, 128);
+  box-shadow: 2px 2px 15px #88888894;
+}
+.makeamatch__btn {
+  padding: 10px 20px;
+  background-color: rgb(18, 107, 143);
+  color: white;
+  border: none;
+  position: absolute;
+  margin-top: 40px;
+  border: 1px solid rgb(18, 107, 143);
+  right: 0px;
+  cursor: pointer;
+}
+.makeamatch__btn:hover {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(18, 107, 143);
+  transition: ease 300ms;
+  color: rgb(18, 107, 143);
+  box-shadow: 2px 2px 15px #88888894;
+}
+.search__btn:hover {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid teal;
+  transition: ease 300ms;
+  color: teal;
+  box-shadow: 2px 2px 15px #88888894;
+}
+
+@media (max-width: 500px) {
+  .img__left {
+    display: none;
+  }
+  .img__right {
+    display: none;
+  }
+  .search__left {
+    width: 70%;
+  }
+  .makeamatch__right {
+    width: 70%;
+    right: 10px;
+  }
+  .app__titleCont {
+    width: 70%;
+  }
+  .app__title {
+    font-size: 40px;
+  }
+  .feature__title {
+    font-size: 40px;
+  }
+  .title-feature {
+    font-size: 20px;
+  }
+}

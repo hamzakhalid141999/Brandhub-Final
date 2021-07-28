@@ -1,0 +1,110 @@
+.wishlist {
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+  text-align: center;
+}
+.container-breadcrumbs {
+  text-align: left;
+}
+.product__card {
+  height: 300px;
+  width: 410px;
+  margin-right: 10px;
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+}
+.product__detail {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  height: 190px;
+}
+.product__card:hover {
+  border: 2px solid rgb(168, 219, 189);
+  transform: scale(1.02);
+  transition: ease 200ms;
+  box-shadow: 3px 9px 23px -9px rgba(0, 0, 0, 0.72);
+}
+.product__row {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: auto;
+  width: 95%;
+  margin: 20px;
+  margin-top: 50px;
+}
+.image__cont {
+  height: 100px;
+  width: 100%;
+}
+.img {
+  top: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.prod__name {
+  font-weight: lighter;
+  color: gray;
+  font-size: 18px;
+  margin: 2px;
+}
+.prod__price {
+  margin: 2px;
+}
+.prod__color {
+  margin: 2px;
+}
+.buttons__cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.open__product {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: none;
+  background-color: teal;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid teal;
+}
+.open__product:hover {
+  background-color: white;
+  color: teal;
+  transition: ease 200ms;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.remove__product {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  background-color: white;
+  color: red;
+  padding: 5px 10px;
+  border: 1px solid red;
+}
+.remove__product:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  transition: ease 200ms;
+  cursor: pointer;
+}
+.wishlist__empty {
+  text-align: center;
+  width: 100%;
+}
+.empty__message {
+  font-size: 50px;
+  color: grey;
+  font-weight: lighter;
+}

@@ -1,0 +1,50 @@
+.header {
+  height: 60px;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  top: 0px;
+  position: fixed;
+  z-index: 3;
+}
+.header__solid {
+  height: 65px;
+  background-color: rgba(5, 58, 58, 0.493);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  padding: 10px;
+  top: 0px;
+  position: fixed;
+  z-index: 3;
+}
+.logo {
+  position: absolute;
+  left: 10px;
+  max-width: 5%;
+}
+.nav__btn {
+  color: white;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bolder;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 5px;
+}
+.nav__btn:hover {
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.411);
+  transition: ease 100ms;
+  border-radius: 5px;
+}
+.navbtn__cont {
+  right: 20px;
+  position: absolute;
+}
+@media (max-height: 500px) {
+  .logo {
+    max-width: 15%;
+  }
+}
